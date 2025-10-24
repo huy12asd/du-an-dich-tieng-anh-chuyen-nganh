@@ -1,4 +1,4 @@
 flask
 googletrans==4.0.0-rc1
 pyodbc
-lask_sqlalchemy
+Flask-SQLAlchemy
