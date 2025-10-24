@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "SmartTech Translator",
+  "version": "1.0",
+  "description": "Dịch web bằng dữ liệu chuyên ngành + Google Dịch",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "host_permissions": [
+    "http://127.0.0.1:5000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

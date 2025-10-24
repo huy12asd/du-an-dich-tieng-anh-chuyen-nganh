@@ -1,0 +1,7 @@
+{
+  "firewall": "tường lửa (CNTT)",
+  "buffer overflow": "tràn bộ đệm (ATTT)",
+  "intrusion detection system": "hệ thống phát hiện xâm nhập (IDS)",
+  "virtual private network": "mạng riêng ảo (VPN)",
+  "redteam" : "đội tấn công"
+}
