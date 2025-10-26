@@ -3,8 +3,10 @@ from googletrans import Translator
 import sqlite3  # <-- THAY ĐỔI: Dùng sqlite3 thay vì pyodbc
 import re
 import os       # <-- THAY ĐỔI: Thêm 'os' để đọc PORT khi deploy
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 translator = Translator()
 
 # <-- THAY ĐỔI: Kết nối SQLite

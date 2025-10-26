@@ -1,7 +1,7 @@
 (async () => {
   const text = document.body.innerText;
 
-  const response = await fetch("http://127.0.0.1:5000/api/translate", {
+  const response = await fetch("https://du-an-dich-tieng-anh-chuyen-nganh-6.onrender.com/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ text })
