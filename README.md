@@ -1,4 +1,4 @@
-pip install -r requeriment.txt
+pip install -r requirements.txt
 python app.py
 
 
