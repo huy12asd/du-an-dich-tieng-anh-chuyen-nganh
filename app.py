@@ -119,7 +119,7 @@ def modules():
         search_term = request.form.get("term", "").strip()
         if search_term:
             cursor.execute("""
-                SELECT module, english, vietnamese, boi_canh, vi_du
+                SELECT module, english, vietnamese, note, vi_du
                 FROM Terms
                 WHERE LOWER(english) LIKE ?
                 ORDER BY module, english
