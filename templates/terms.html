@@ -201,9 +201,9 @@
                         <th>STT</th>
                         <th>Thuật ngữ</th>
                         <th>Dịch nghĩa</th>
-                        <th>Bối cảnh</th>
-                        <th>Ví dụ</th>
                         <th>Ghi chú</th>
+                        <th>Ví dụ</th>
+                       
                     </tr>
                 </thead>
                 <tbody>
@@ -212,9 +212,9 @@
                         <td>{{ loop.index + (page-1)*10 }}</td>
                         <td>{{ t[1] }}</td>
                         <td>{{ t[2] }}</td>
-                        <td>{{ t[4] or "-" }}</td>
-                        <td><i>{{ t[5] or "-" }}</i></td>
                         <td>{{ t[3] or "" }}</td>
+                        <td><i>{{ t[5] or "-" }}</i></td>
+                        
                     </tr>
                     {% endfor %}
                 </tbody>
