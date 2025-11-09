@@ -1,0 +1,126 @@
+CCPA
+
+CFTC
+
+CIO
+
+CISO
+
+CTO
+
+CVE
+
+CSP
+
+FedRAMP
+
+FFIEC
+
+FDIC
+
+FILs
+
+FQDNs
+
+FTC
+
+GDPR
+
+HHS
+
+HIPAA
+
+IaaS
+
+ISSAF
+
+ISM
+
+MSA
+
+NDA
+
+NIST
+
+OSSTMM
+
+OWASP
+
+OWASP WSTG
+
+PaaS
+
+PAN
+
+PCI DSS
+
+PFI
+
+PTES
+
+QSA
+
+RFP
+
+ROI
+
+SaaS
+
+SDK
+
+SLA
+
+SOAP
+
+SOW
+
+SQL
+
+SSID
+
+VPN
+
+WADL
+
+WSDL
+ADIA (Appliance for Digital Investigation and Analysis)
+
+BeEF (Browser Exploitation Framework Project)
+
+CAINE (Computer Aided Investigative Environment)
+
+CSV (Comma-separated values)
+
+DAST (dynamic application security testing)
+
+Dual_EC_DRBG (Dual Elliptic Curve Deterministic Random Bit Generator)
+
+ETA (Cisco's Encrypted Traffic Analytics)
+
+EXIF (exchangeable image file format)
+
+FOCA (Fingerprinting Organization with Collected Archives)
+
+GDB (The GNU Project Debugger)
+
+GDPR (General Data Protection Regulation)
+
+ICANN (The Internet Corporation for Assigned Names and Numbers)
+
+JSON (JavaScript Object Notation)
+
+NSA (U. S. National Security Agency)
+
+OSINT (open-source intelligence)
+
+OWASP ZAP (OWASP Zed Attack Proxy)
+
+RDP (Microsoft's Remote Desktop Protocol)
+
+SAST (static application security testing)
+
+SCAP (Open Security Content Automation Protocol)
+
+SIFT Workstation (SANS Investigative Forensic Toolkit) Workstation
+
+WDPRS (Whois Data Problem Reporting System)

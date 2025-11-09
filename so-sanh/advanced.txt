@@ -1,0 +1,169 @@
+GraphQL
+
+MITRE ATT&CK
+
+Hacktivist
+
+Kali Linux
+
+Parrot OS
+
+BlackArch
+
+healthcare provider
+
+healthcare plan
+
+healthcare clearinghouse
+
+business associates
+
+American Fuzzy Lop
+
+BackTrack
+
+BlackArch
+
+BlackArch Linux
+
+Brakeman
+
+Cain and Abel
+
+Censys
+
+CeWL
+
+CloudBrute
+
+Cloud Custodian
+
+Coagula
+
+DirBuster
+
+EAPHammer
+
+edb Debugger
+
+Enum4linux
+
+ExifTool
+
+Fern Wi-Fi Cracker
+
+FindSecBugs
+
+Fuzzers
+
+Hashcat
+
+Hydra
+
+IDA
+
+Immunity Debugger
+
+John the Ripper
+
+Kali Linux
+
+Mdk4
+
+Medusa and Ncrack
+
+Metagoofil
+
+Metasploit
+
+Mimikatz
+
+Mutiny Fuzzing Framework
+
+Ncrack
+
+Nessus
+
+Nexpose
+
+Nikto
+
+Objdump
+
+OllyDbg
+
+OpenStego
+
+OpenVAS
+
+Pacu
+
+PALADIN
+
+Parrot OS
+
+Patator
+
+Peach
+
+Proxychains
+
+Qualys
+
+RainbowCrack
+
+Reaver
+
+Recon-ng
+
+ScoutSuite / Scout Suite
+
+Searchsploit
+
+Security Onion
+
+Shodan
+
+Skadi
+
+snow
+
+SonarQube
+
+Sonic Visualiser
+
+SpotBugs
+
+Spooftooph
+
+SQLmap
+
+theHarvester
+
+TinEye
+
+Tor
+
+Veil
+
+VNC
+
+W3af
+
+Wapiti
+
+WHAX
+
+WHoppiX
+
+WiGLE (Wireless Geographic Logging Engine)
+
+Wifite2
+
+Windows Debugger
+
+WPScan (Wordpress scanner)
+
+X server forwarding
+
+Zenmap

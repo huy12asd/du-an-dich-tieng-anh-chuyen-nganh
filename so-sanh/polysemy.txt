@@ -1,0 +1,104 @@
+application-based tests
+
+blue team
+
+cloud service provider (CSP)
+
+ethical hacking
+
+FDIC Safeguards Act
+
+Financial Institutions Letters (FILs)
+
+Insider threat
+
+Information Systems Security Assessment Framework (ISSAF)
+
+known-environment test (white-box)
+
+network infrastructure tests
+
+NIST SP 800-115
+
+Open Source Security Testing Methodology Manual (OSSTMM)
+
+Open Web Application Security Project (OWASP)
+
+OWASP Web Security Testing Guide (WSTG)
+
+partially known environment test (gray-box)
+
+penetration testing
+
+penetration testing in the cloud
+
+Penetration Testing Execution Standard (PTES)
+
+red team
+
+Risk acceptance
+
+Risk assessment
+
+Risk management
+
+Risk mitigation
+
+Risk tolerance
+
+Risk-taking
+
+rules of engagement
+
+rules of engagement document
+
+scope creep
+
+Social-Engineer Toolkit (SET)
+
+State-Sponsored Attacker
+
+unethical hacking
+
+unknown-environment test (black-box)
+Active reconnaissance
+
+Apple Remote Desktop
+
+application-based tests
+
+BlackArch in Docker
+
+cloud service provider (CSP)
+
+Configuration compliance
+
+Credential attack
+
+defensive security
+
+DNS tunneling (DNS exfiltration)
+
+Fuzz testing
+
+infrastructure as a service (IaaS)
+
+known-environment test (white-box)
+
+network infrastructure tests
+
+offensive security
+
+partially known environment test (gray-box)
+
+Passive reconnaissance
+
+platform as a service (PaaS)
+
+Rogue access points
+
+software as a service (SaaS)
+
+Software assurance
+
+unknown-environment test (black-box)

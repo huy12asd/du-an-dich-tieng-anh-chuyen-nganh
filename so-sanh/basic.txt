@@ -1,0 +1,68 @@
+Gantt Chart
+
+Organized Crime
+
+VirtualBox
+
+VMware
+arithmetic operators
+
+arrays
+
+Bash shell
+
+boolean operators
+
+classes
+
+conditionals
+
+data structures
+
+Debugging
+
+Decompilation
+
+dictionaries
+
+dig
+
+Encryption
+
+Enumeration
+
+Evasion
+
+Forensics
+
+host
+
+lists
+
+logic constructs
+
+loops
+
+nslookup
+
+Perl
+
+Persistence
+
+PowerShell
+
+Python
+
+Reconnaissance
+
+Ruby
+
+Scanners
+
+string operators
+
+trees
+
+Vulnerability scanning
+
+whois

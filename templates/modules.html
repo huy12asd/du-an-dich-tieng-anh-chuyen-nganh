@@ -48,7 +48,6 @@
     <!-- Ô tìm kiếm -->
     <form class="search-box" method="post" action="{{ url_for('modules') }}">
         <div class="input-group shadow-sm">
-            <!-- Ô nhập tìm kiếm -->
             <input type="text"
                    name="term"
                    class="form-control"
@@ -60,8 +59,6 @@
                    required>
             
             <button class="btn btn-primary" type="submit">🔍 Tìm kiếm</button>
-
-            <!-- Datalist để chứa gợi ý -->
             <datalist id="suggestions-list"></datalist>
         </div>
     </form>
@@ -101,20 +98,41 @@
     </div>
     {% endif %}
 
-    <!-- Danh sách module -->
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-        {% for m in modules %}
+    <!-- Nhóm Thu thập an ninh mạng (module 1-10) -->
+    {% if group_thu_thap %}
+    <h4 class="mt-4 mb-3 fw-bold">📌 Thu thập an ninh mạng</h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for m in group_thu_thap %}
         <div class="col">
             <div class="card module-card text-center shadow-sm">
                 <div class="card-body">
                     <h5 class="card-title">Module {{ m }}</h5>
-                    <p class="card-text text-muted">Từ vựng chuyên ngành - Nhóm {{ m }}</p>
+                    <p class="card-text text-muted">Nhóm Thu thập an ninh mạng</p>
                     <a href="{{ url_for('terms', module_id=m) }}" class="btn btn-primary">Xem chi tiết</a>
                 </div>
             </div>
         </div>
         {% endfor %}
     </div>
+    {% endif %}
+
+    <!-- Các module còn lại -->
+    {% if group_other %}
+    <h4 class="mt-5 mb-3 fw-bold">📌 Các module khác</h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for m in group_other %}
+        <div class="col">
+            <div class="card module-card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Module {{ m }}</h5>
+                    <p class="card-text text-muted">Nhóm OT và IoT security </p>
+                    <a href="{{ url_for('terms', module_id=m) }}" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
 
     <div class="text-center mt-5">
         <a href="{{ url_for('index') }}" class="text-decoration-none text-primary">
@@ -122,7 +140,7 @@
         </a>
     </div>
 
-    <!-- Script cho autocomplete -->
+    <!-- Script autocomplete -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const searchInput = document.getElementById('search-term');
@@ -131,26 +149,18 @@
         if (searchInput) {
             searchInput.addEventListener('input', async function(e) {
                 const query = e.target.value.trim();
-
-                if (query.length < 1) {
-                    suggestionsList.innerHTML = '';
-                    return;
-                }
+                if (query.length < 1) { suggestionsList.innerHTML = ''; return; }
 
                 try {
-                    // API gợi ý từ
                     const response = await fetch(`/api/suggestions?q=${encodeURIComponent(query)}`);
                     if (!response.ok) return;
-
                     const suggestions = await response.json();
                     suggestionsList.innerHTML = '';
-
                     suggestions.forEach(term => {
                         const option = document.createElement('option');
                         option.value = term;
                         suggestionsList.appendChild(option);
                     });
-
                 } catch (error) {
                     console.error("Lỗi khi lấy gợi ý:", error);
                 }
